@@ -1,4 +1,4 @@
-﻿namespace Dynamic_Proxy_AOP
+﻿namespace Dynamic_Proxy_AOP.Abstract
 {
     public interface ISqlFactory
     {

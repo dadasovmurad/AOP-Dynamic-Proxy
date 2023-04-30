@@ -1,9 +1,10 @@
 ﻿using Castle.DynamicProxy;
+using Dynamic_Proxy_AOP.Interceptors;
 using System;
 
-namespace Dynamic_Proxy_AOP
+namespace Dynamic_Proxy_AOP.Aspects.Autofac.Custom
 {
-    public class MyCustomeAspect : MethodInterception
+    public class MyCustomAspect : MethodInterception
     {
         public override void OnBefore(IInvocation invocation)
         {

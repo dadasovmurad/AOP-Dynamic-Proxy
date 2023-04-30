@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dynamic_Proxy_AOP
+namespace Dynamic_Proxy_AOP.Interceptors
 {
     public class MethodInterception : MethodInterceptionBaseAttribuite
     {
